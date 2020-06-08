@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+</header>
+<nav>
+</nav>
+<aside>
+</aside>
+<section>
+<article>
+</article>
+</section>
+<aside id="right">
+</aside>
+<footer>
+</footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>숫자태그</title>
+</head>
+<body>
+	<form>
+		신발사이즈:<input type="number" min="230" max="290" step="10" value="260"
+			name="shoesize">
+	</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> /* box요소를 화면의 수직 배치에 사용 z-index값이 높으면 위에, z인덱스 값이 낮으면 아래에 위치 */
+        #box1{position: absolute; top: 0; left: 0;background-color: blue;width: 100px;height: 100px; z-index: 100;}
+        #box2{position: absolute; top: 30px; left: 30px;background-color: yellow;width: 100px;height: 100px;z-index: 0;}
+        #box3{position: absolute; top: 60px;left: 60px;background-color: green;width: 100px;height: 100px;z-index: -100;}
+    </style>
+</head>
+<body>
+    <div id="box1">box #1</div>
+    <div id="box2">box #2</div>
+    <div id="box3">box #3</div>
+</body>
+</html>

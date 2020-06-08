@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<div style="border: gray 1px solid;">
+			<ol>
+				<li><div style="border: gray 1px solid;">
+						<ol>
+							<li><input type="radio" name="card">VISA</li>
+							<li><input type="radio" name="card">AmEx</li>
+							<li><input type="radio" name="card">Mastercard</li>
+						</ol>
+					</div></li>
+				<li>카드 번호<input type="number" name="cardNumber"></li>
+				<li>CRC 번호<input type="number" name="crcNumber"></li>
+				<li>카드 소유자 이름<input type="text" name="name"
+					placeholder="카드 상의 이름"></li>
+			</ol>
+		</div>
+		<div style="border: 1px solid gray;">
+			<input type="submit" value="구매">
+		</div>
+	</form>
+</body>
+</html>

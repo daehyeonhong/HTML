@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	background: url("./images/back.jpg");
+	background-repeat: norepeat;
+	background-attachment: fixed;
+}
+</style>
+</head>
+<body>
+<p>이미지는 한번만 표시되고 위치가 고정되어 있다.</p>
+</body>
+</html>

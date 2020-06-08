@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+h {
+	background-color: yellow;
+	border-color: red;
+	border-bottom-width: 2px;
+	border-style: solid;
+}
+</style>
+</head>
+<body>
+	<h1>This is a heading</h1>
+</body>
+</html>

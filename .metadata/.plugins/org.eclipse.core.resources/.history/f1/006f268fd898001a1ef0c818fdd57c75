@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>date관련태그</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+		<legend>날짜관련 태그</legend>
+			date:<input type="date"><br>
+			<!-- 날짜입력태그 -->
+			datetime:<input type="datetime"><br>
+			<!-- UTC 국제 표준시 형식으로 날짜입력 -->
+			datetime-local:<input type="datetime-local"><br>
+			<!-- time-zone에 따른 날짜 입력 차이 -->
+			<br> month:<input type="month"><br> time:<input
+				type="time"><br> week:<input type="week"><br>
+	</form>
+	</fieldset>
+	<fieldset><legend>그 외 태그</legend>
+	</fieldset>
+</body>
+</html>

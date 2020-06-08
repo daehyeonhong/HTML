@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body h1 {
+	color: green;
+}
+
+p>strong {
+	color: orange;
+}
+
+p>em {
+	color: yellow;
+}
+
+body h2 {
+	color: green;
+}
+
+h2, ul ul {
+	color: red;
+}

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #f3f1e9;
+}
+
+header {
+	height: 60px;
+	margin: 10px;
+}
+
+nav {
+	margin: 10px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 10px 0;
+}
+
+nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 10px;
+	letter-spacing: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+aside#left {
+	width: 175px;
+	margin-top: 20px;
+	float: left;
+}
+
+#left h4 {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#left ul { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #fff;
+	list-style: none;
+	text-indent: 15px;
+}
+
+#left ul li { /* id="left"블럭 요소내의 ul 내의 li들의 스타일 */
+	background: #3f3f3f;
+	list-style: 28px;
+	border-bottom: 1px solid #333;
+}
+
+#left ul li a { /* id="left"블럭 요소내의 ul 내의 li 내의 <a>태그의 스타일 */
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+#left ul li a:hover { /* id="left" 요소내의 ul내의 li내의 a태그에 마우스를 올렸을 때*/
+	background: #d40203;
+}
+
+#left ul li#active { /* id="left"요소 내의 ul내의 li중에 active상태(클릭)인 것*/
+	background: #d40203;
+}
+
+#main {/* id="main"요소의 스타일 */
+	font-family: Arial, Helvetica, sans-serif; /* font */
+	font-size: 12px; /* 글자 크기 */
+	color: #464646; /* 글자색 */
+	overflow: hidden; /* 요서가 범위를 벗어났을 때, 벗어난 요소 숨기기 */
+	float: left; /* 왼쪽으로 floating */
+	width: 430px; /* 폭 지정 */
+}
+
+aside#right { /* 시맨틱 태그 aside 중에 id="right"인 요소 스타일.*/
+	padding: 0px;
+	margin-left: 10px;
+	width: 200px;
+	float: left;
+}
+
+#shopcart { /* id="login"요소 스타일 지정 */
+	margin-bottom: 20px;
+}
+
+#login { /* id="login" 요소 스타일 지정*/
+	margin-top: 40px;
+}
+
+footer { /* 시맨틱 태그 footer 스타일 지정*/
+	width: 100%; /* 부모요소 크기만큼의 폭 */
+	height: 50px;/* 높이 */
+	clear: both; /* 위에서 설정한 floating 속성 제거(양쪽) */
+	background-image: url('../medias/footer_bg.gif');/* 배경 이미지*/
+	background-position: top left; /* 왼쪽 상단 */
+	background-repeat: repeat-x; /* x(가로)축 반복 */
+}

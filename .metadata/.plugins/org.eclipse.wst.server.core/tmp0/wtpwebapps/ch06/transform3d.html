@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d</title>
+    <style>
+        div {
+            background: green;
+            height: 150px;
+            width: 150px;
+        }
+
+        .container {
+            background-color: yellow;
+            border: 1px solid black;
+        }
+
+        .transformed {
+            backface-visibility: visible;
+            transform-origin: 50% 42%;
+            transform: perspective(500px) rotateY(59deg) rotateX(0deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="transformed">
+
+        </div>
+    </div>
+</body>
+
+</html>

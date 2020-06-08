@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>select -option</title>
+</head>
+<body>
+<form>
+<select name = "cars">
+<option value="bmw">bmw</option>
+<option value="benz">benz</option>
+<option value="hyundai">hyundai</option>
+<option value="kia">kia</option>
+</select>
+
+<br>
+<button type="submit">제출</button><button type="reset">다시</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	배송지 주소
+	<div style="border: gray 1px solid;">
+		<form action="">
+			<ol>
+				<li>주소<textarea rows="5" cols="30" name="address"></textarea></li>
+				<li>우편번호 <input type="text" name="zipcode"></li>
+				<li>국가<input type="text" name="country"></li>
+			</ol>
+		</form>
+	</div>
+
+</body>
+</html>

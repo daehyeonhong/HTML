@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>button</title>
+</head>
+<body>
+<form>
+아이디: <input type="text" name="name"><br>
+<input type="submit"value="제출"><br><!-- <input type = "summit"> -->
+<button type="submit">제출</button><!-- <button type = "submit"> -->
+</form>
+</body>
+</html>

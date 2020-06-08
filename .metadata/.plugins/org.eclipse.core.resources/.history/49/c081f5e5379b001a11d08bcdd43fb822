@@ -1,0 +1,12 @@
+package ch07;
+
+public class Member {
+	String id;
+    String password1;
+    String name;
+    String tel;
+    String email;
+    String dob;
+    String url;
+    String gender;   
+}

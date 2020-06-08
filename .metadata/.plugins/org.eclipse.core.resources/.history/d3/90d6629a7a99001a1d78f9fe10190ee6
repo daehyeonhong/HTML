@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+ol>li {
+	color: blue;
+}
+
+ol li {
+	color: red;
+}
+</style>
+</head>
+<body>
+	<div>
+		<ol>
+			메뉴
+			<li>양식
+				<ul>
+					<li>스테이크</li>
+					<li>돈까스</li>
+				</ul>
+			</li>
+			<li>중식
+				<ul>
+					<li>자장면</li>
+					<li>짬뽕</li>
+					<li>탕수육</li>
+				</ul>
+			</li>
+			<li>한식
+				<ul>
+					<li>비빔밥</li>
+					<li>김치찌개</li>
+				</ul>
+			</li>
+		</ol>
+	</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My web page</title>
+<style type="text/css">p{background-color:yellow; }</style>
+</head>
+<body>
+<p>This is a paragraph.</p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>word-wrapping</title>
+<style type="text/css">
+p.test {
+	width: 11em;
+	border: 1px solid #000;
+	word-wrap:break-word; 
+}
+</style>
+</head>
+<body>
+	<p>매우 긴 단어가 있는 경우에 자동으로 잘라준다.
+		ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
+</body>
+</html>

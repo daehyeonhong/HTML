@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+#list {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#list td, #list th {
+	border: 1px solid grey;
+	text-align: center;
+}
+
+#list th {
+	color: white;
+	background-color: blue;
+}
+
+#list tr.alt{
+	background-color: yellow;
+}
+</style>
+</head>
+<body>
+	<table id="list">
+		<caption>VIP 고객 리스트</caption>
+		<tr>
+			<th>이름</th>
+			<th>이메일</th>
+		</tr>
+		<tr>
+			<td>홍길동</td>
+			<td>hong@daum.net</td>
+		</tr>
+		<tr>
+			<td class="alt">일지매</td>
+			<td>il@daum.net</td>
+		</tr>
+		<tr>
+			<td>임꺽정</td>
+			<td>im@daum.net</td>
+		</tr>
+		<tr>
+			<td class="alt">김길동</td>
+			<td>kim@daum.net</td>
+		</tr>
+	</table>
+</body>
+</html>

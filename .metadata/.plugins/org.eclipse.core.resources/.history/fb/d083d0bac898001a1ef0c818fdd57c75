@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>textarea</title>
+</head>
+<body>
+<form>고객의 의견<br>
+<textarea rows="5" cols="50" name = "feedback" maxlength="50"></textarea>
+<input type="submit" value="의견 등록"><input type="reset" value = "다시쓰기">
+</form>
+</body>
+</html>

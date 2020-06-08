@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localhost</title>
+    <style>
+        div {
+            background-color: red;
+            width: 400px;
+            height: 400px;
+            animation: 2s myanim;
+            animation-iteration-count: 10;
+            position: relative;
+        }
+
+        @keyframes myanim {
+            0% {
+                left: 0px;
+                bottom: 0px;
+            }
+
+            25% {
+                left:500px;
+                bottom: 0px;
+            }
+
+            50% {
+                left: 500px;
+                bottom: -500px;
+            }
+
+            75% {
+                left: 0px;
+                bottom: -500px;
+            }
+
+            100% {
+                left: 0px;
+                bottom: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

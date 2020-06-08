@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<ol>
+			메뉴
+			<li>양식</li>
+			<li>중식</li>
+			<li>한식</li>
+		</ol>
+	</div>
+</body>
+</html>

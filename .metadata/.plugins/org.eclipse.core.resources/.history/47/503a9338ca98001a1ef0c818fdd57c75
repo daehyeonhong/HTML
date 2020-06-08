@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>select -option</title>
+</head>
+<body>
+	<form>
+		<select name="cars" multiple="multiple">
+			<optgroup label="수입차">
+				<option value="bmw">bmw</option>
+				<option value="benz">benz</option>
+			</optgroup>
+			<optgroup label="국산차">
+				<option value="hyundai">hyundai</option>
+				<option value="kia">kia</option>
+			</optgroup>
+		</select> <br>
+		<button type="submit">제출</button>
+		<button type="reset">다시</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Blog</title><style type="text/css">
+li {
+	/* border: 1px solid blue; */
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 10px;
+	letter-spacing: 5px;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 10px 0;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+ul li a:hover {
+	text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<!-- li는 블럭 요소 -->
+		<li><a href="Blog.html">Blog</a></li>
+		<li><a href="About.html">About</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul></div>
+<h1>Blog.html</h1>
+</body>
+</html>

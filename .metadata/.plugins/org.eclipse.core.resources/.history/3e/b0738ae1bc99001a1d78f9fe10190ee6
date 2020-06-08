@@ -1,0 +1,4 @@
+@charset "UTF-8";
+.head{
+	color: green;
+}

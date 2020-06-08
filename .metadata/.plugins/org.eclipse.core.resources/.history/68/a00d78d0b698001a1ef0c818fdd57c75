@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>checkbox</title>
+</head>
+<body>
+<form>
+	과일선택:
+	<input type="checkbox" name="fruits" value="apple">Apple
+	<input type="checkbox" name="fruits" value="grape">Grape
+	<input type="checkbox" name="fruits" value="orange">Orange
+	<br>
+	<input type="submit" value="전송">
+</form>
+</body>
+</html>

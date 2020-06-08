@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>file전송태그</title>
+</head>
+<body>
+<form>
+<input type="file"accept="image/jpg,image/gif">
+<input type="submit"value="전송">
+</form>
+</body>
+</html>

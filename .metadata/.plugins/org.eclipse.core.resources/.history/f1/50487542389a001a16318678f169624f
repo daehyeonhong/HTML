@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list-style</title>
+    <style>
+        ul.a{
+list-style: circle;
+list-style-position: inside;
+        }
+        ul.b{
+list-style: disc;
+list-style-position: outside; /*default*/
+        }
+        ul.c{
+list-style: square;
+        }
+    </style>
+</head>
+<body>
+    <ul class="a">
+        <li>
+            HTML5
+        </li><li>
+            CSS3
+        </li><li>
+            JAVASCRIPT
+        </li>
+    </ul><ul class="b">
+        <li>
+            HTML5
+        </li><li>CSS3</li><li>JAVASCRIPT</li>
+    </ul><ul class="c">
+        <li>
+            HTML5
+        </li><li>CSS3</li><li>JAVASCRIPT</li>
+    </ul>
+</body>
+</html>

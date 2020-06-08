@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>font-style</title>
+</head>
+<body>
+<p class="style1">font:italic 30px arial, sans-serif</p>
+<p class="style2">font:bold 40px Georgia0serif;</p>
+</body>
+</html>

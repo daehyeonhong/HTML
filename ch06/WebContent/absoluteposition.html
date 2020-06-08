@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position:absolute</title>
+    <style>
+        #one {
+            background-color: cyan;
+            width: 200px;
+            height: 50px;
+        }
+
+        #two {
+            background-color: yellow;
+            width: 200px;
+            height: 50px;
+            position: absolute;
+            /* 전체 페이지 기준으로 시작위치에서 거리 지정 */
+            top: 50px;
+            left: 50px;
+        }
+
+        #three {
+            background-color: greenyellow;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="one">block #1</p>
+    <div id="two">block #2<br>position:static;</div>
+    <p id="three">block #3</p>
+</body>
+
+</html>

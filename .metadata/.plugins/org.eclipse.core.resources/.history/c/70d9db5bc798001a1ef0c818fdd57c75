@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Input type 이미지</title>
+</head>
+<body>
+<form >
+아이디: <input type="text" name="name"><br>
+<intput type="image" src="./images/button.png" alt="제출버튼">
+</form>
+
+</body>
+</html>

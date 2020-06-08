@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>속성 선택자 태그[속성]</title>
+<style type="text/css">
+h1{color: blue;}
+p[class="example"]{color: blue;}
+</style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>this is a paragraph</p>
+<p class="example">this is a paragraph</p>
+</body>
+</html>

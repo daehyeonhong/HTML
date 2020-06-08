@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>date관련태그</title>
+</head>
+<body>
+	<form>
+		date:<input type="date"><br>
+		<!-- 날짜입력태그 -->
+		datetime:<input type="datetime"><br>
+		<!-- UTC 국제 표준시 형식으로 날짜입력 -->
+		datetime-local:<input type="datetime-local"><br>
+		<!-- time-zone에 따른 날짜 입력 차이 -->
+	</form>
+</body>
+</html>

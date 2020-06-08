@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	font-size: medium;
+}
+
+p#1 {
+	font-size:1.0em;
+}
+
+p#2 {
+	font-size:1.5em;
+}
+
+p#3 {
+	font-size:20em;
+}
+}
+</style>
+</head>
+<body>
+	<p>paragraph.</p>
+	<p>paragraph.</p>
+	<p>paragraph.</p>
+	<p>paragraph.</p>
+
+</body>
+</html>

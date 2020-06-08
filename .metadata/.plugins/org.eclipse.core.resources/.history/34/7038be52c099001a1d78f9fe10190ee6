@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../css/exercise008.css">
+</head>
+<body>
+	<h1 id="special">연습문제8</h1>
+</body>
+</html>
