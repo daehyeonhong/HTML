@@ -1,5 +1,0 @@
-@charset "UTF-8";
-
-h1>exercise008 {
-	background-color: red;
-}

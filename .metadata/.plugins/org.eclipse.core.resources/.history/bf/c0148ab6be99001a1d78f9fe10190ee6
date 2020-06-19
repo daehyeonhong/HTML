@@ -1,6 +1,0 @@
-@charset "UTF-8";
-.head{
-	font-family:KCC은영체
-	src:url("https://noonnu.cc/font_page/85")
-	color: green;
-}
