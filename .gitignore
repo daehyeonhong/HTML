@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+/.metadata/
+=======
 
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse,java,oracleforms,images,video
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,java,oracleforms,images,video
@@ -190,4 +193,6 @@ hs_err_pid*
 *.webm
 
 *.Servers/
+Servers/
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,java,oracleforms,images,video
+>>>>>>> 18f2aa18a82b78d30e3a56bb23d19acaf635a3a9
