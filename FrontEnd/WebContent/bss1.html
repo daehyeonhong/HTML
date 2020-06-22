@@ -2,102 +2,191 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>bbs</title>
-<style>
-body {
-	margin: 0;
-	padding: 0;
-}
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>bbs</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
 
-h1, h2 {
-	color: #fff;
-}
+		h1,
+		h2 {
+			color: #fff;
+		}
 
-a {
-	color: #000;
-	text-decoration: none;
-}
+		a {
+			color: #000;
+			text-decoration: none;
+		}
 
-#wrap {
-	width: 960px;
-	margin: 0 auto;
-	background: #eee;
-}
+		#wrap {
+			width: 960px;
+			margin: 0 auto;
+			background: #eee;
+		}
 
-#header {
-	background: #888;
-	padding: 30px;
-}
+		#header {
+			background: #888;
+			padding: 30px;
+		}
 
-#content {
-	padding: 30px;
-}
+		#content {
+			padding: 30px;
+		}
 
-#footer {
-	background: #333;
-	height: 50px;
-	padding: 20px;
-	font-size: 14px;
-	font-weight: bold;
-	color: #fff;
-	text-align: center;
-}
+		#footer {
+			background: #333;
+			height: 50px;
+			padding: 20px;
+			font-size: 14px;
+			font-weight: bold;
+			color: #fff;
+			text-align: center;
+		}
 
-.logo {
-	float: left;
-	margin-right: 20px;
-}
+		.logo {
+			float: left;
+			margin-right: 20px;
+		}
 
-.bbsList {
-	width: 100%;
-	border-spacing: 0;
-}
+		.bbsList {
+			width: 100%;
+			border-spacing: 0;
+		}
 
-.bbsList thead tr th {
-	background: #ddd;
-	border-top: 4px solid #999;
-	border-bottom: 2px solid #bbb;
-	padding: 10px;
-}
+		.bbsList thead tr th {
+			background: #ddd;
+			border-top: 4px solid #999;
+			border-bottom: 2px solid #bbb;
+			padding: 10px;
+		}
 
-.bbsList tbody tr td {
-	padding: 5px;
-	border-bottom: 1px solid #bbb;
-	text-align: center;
-	font-size: 12px;
-}
+		.bbsList tbody tr td {
+			padding: 5px;
+			border-bottom: 1px solid #bbb;
+			text-align: center;
+			font-size: 12px;
+		}
 
-.pageContainer {
-	width: 100%;
-	text-align: center;
-}
+		.bbsList .t_subject {
+			width: 65%;
+			text-align: left;
+		}
 
-.pageList {
-	margin-top: 10px;
-	display: inline-block; /* 인라인 폭, 높이 */
-}
+		.bbsList .t_subject .t_comment {
+			font-size: 11px;
+			color: #f22;
+			margin-left: 3px;
+		}
 
-ul, li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
+		.bbsList .t_subject .t_hasImage {
+			background: url("img/hasImage.png") no-repeat;
+			width: 12px;
+			height: 12px;
+			display: inline-block;
+			/* 인라인 요소면서 폭, 높이 지정 */
+		}
 
-.searchContainer {
-	width: 100%;
-	text-align: center;
-	margin-top: 10px;
-}
+		.bbsList .t_author {
+			width: 12%;
+			text-align: center;
+		}
 
-.pageList li {
-	float: left;
-	background: #fff;
-	padding: 5px;
-	border: 1px solid #bbb;
-}
-</style>
+		.bbsList .t_author a {
+			position: relative;
+			left: 20px;
+			/* 왼쪽 마진 20px */
+		}
+
+		.bbsList .t_author .t_icon {
+			position: absolute;
+		}
+
+		.bbsList .t_level {
+			position: relative;
+			left: 22px;
+		}
+
+		.bbsList .t_notice {
+			background: #bbb;
+		}
+
+		.bbsList .t_notice .t_subject a {
+			color: #774500;
+			font-weight: bold;
+		}
+
+		.bbsList .t_notice .t_subject .t_comment {
+			color: #fff300;
+		}
+
+		.bbsList .t_notice .t_number span {
+			background: #fff300;
+			font-size: 11px;
+			font-weight: bold;
+			padding: 2px;
+		}
+
+		.bbsList tfoot {
+			text-align: right;
+		}
+
+		.bbsList tfoot tr td {
+			padding: 10px;
+			border-top: 2px solid #bbb;
+			border-bottom: 2px solid #bbb;
+		}
+
+		.bbsList tfoot .btnWrite span {
+			position: relative;
+			top: 5px;
+		}
+
+		.bbsList tfoot .btnWrite:hover {
+			text-decoration: none;
+			background: #fff300;
+		}
+
+		.bbsList tfoot .btnWrite {
+			border: 1px solid #bbb;
+			font-size: 12px;
+			padding: 6px;
+			background: #fff;
+		}
+
+		.pageContainer {
+			width: 100%;
+			text-align: center;
+		}
+
+		.pageList {
+			margin-top: 10px;
+			display: inline-block;
+			/* 인라인 폭, 높이 */
+		}
+
+		ul,
+		li {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.searchContainer {
+			width: 100%;
+			text-align: center;
+			margin-top: 10px;
+		}
+
+		.pageList li {
+			float: left;
+			background: #fff;
+			padding: 5px;
+			border: 1px solid #bbb;
+		}
+	</style>
 </head>
 
 <body>
@@ -128,17 +217,16 @@ ul, li {
 						<td class="t_number"><span>공지</span></td>
 						<td class="t_subject"><a href="#" title="게시물내용">이벤트
 								안내드립니다.</a><span class="t_comment">[6]</span></td>
-						<td class="t_author"><span class="t_icon"><img
-								src="img/icon1.png" alt=""></span><a href="#" title="운영자">운영자</a><span
-							class="t_level"><img src="img/num1.png" alt=""></span></td>
+						<td class="t_author"><span class="t_icon"><img src="img/icon1.png" alt=""></span><a href="#"
+								title="운영자">운영자</a><span class="t_level"><img src="img/num1.png" alt=""></span></td>
 						<td class="t_date">2015.5.10</td>
 						<td class="t_read">100</td>
 					</tr>
 
 					<tr>
 						<td class="t_number">1234</td>
-						<td class="t_subject"><a href="#" title="게시물내용">안녕하세요!</a><span
-							class="t_comment">[6]</span></td>
+						<td class="t_subject"><a href="#" title="게시물내용">안녕하세요!</a><span class="t_comment">[6]</span>
+						</td>
 						<td class="t_author"><a href="#" title="홍길동">홍길동</a></td>
 						<td class="t_date">2015.5.10</td>
 						<td class="t_read">100</td>
@@ -160,9 +248,9 @@ ul, li {
 								실시간 캔버스!node.js, socket.io, webRTC를 이용한 실시간 캔버스! node.js,
 								socket.io, webRTC를 이용한 실시간 캔버스!node.js, socket.io, webRTC를 이용한
 								실시간 캔버스! node.js, socket.io, webRTC를 이용한 실시간 캔버스!</a><span
-							class="t_comment">[120]</span></td>
-						<td class="t_author"><span class="t_icon"><img
-								src="img/icon1.png" alt=""></span><a href="#" title="홍길동">마르코
+								class="t_hasImage"></span><span class="t_comment">[120]</span></td>
+						<td class="t_author"><span class="t_icon"><img src="img/icon1.png" alt=""></span><a href="#"
+								title="홍길동">마르코
 								폴로</a><span class="t_level"><img src="img/num1.png" alt=""></span></td>
 						<td class="t_date">2015.6.10</td>
 						<td class="t_read">100</td>
@@ -171,10 +259,9 @@ ul, li {
 					<tr>
 						<td class="t_number">1234</td>
 						<td class="t_subject"><a href="#" title="게시물내용">아파트실거래가 앱
-								입니다.</a><span class="t_comment">[6]</span></td>
-						<td class="t_author"><span class="t_icon2"><img
-								src="img/icon2.png" alt=""></span><a href="#" title="홍길동">홍길동</a><span
-							class="t_level"><img src="img/num1.png" alt=""></span></td>
+								입니다.</a><span class="t_hasImage"></span><span class="t_comment"></span></td>
+						<td class="t_author"><span class="t_icon2"><img src="img/icon2.png" alt=""></span><a href="#"
+								title="홍길동">홍길동</a><span class="t_level"><img src="img/num1.png" alt=""></span></td>
 						<td class="t_date">2015.5.10</td>
 						<td class="t_read">100</td>
 					</tr>
@@ -183,9 +270,8 @@ ul, li {
 						<td class="t_number">1234</td>
 						<td class="t_subject"><a href="#" title="게시물내용">이렇게
 								공부해보세요. 웹동네 스터디 맵ver3.0</a></td>
-						<td class="t_author"><span class="t_icon3"><img
-								src="img/icon3.png" alt=""></span><a href="#" title="홍길동">홍길동</a><span
-							class="t_level"><img src="img/num1.png" alt=""></span></td>
+						<td class="t_author"><span class="t_icon3"><img src="img/icon3.png" alt=""></span><a href="#"
+								title="홍길동">홍길동</a><span class="t_level"><img src="img/num1.png" alt=""></span></td>
 						<td class="t_date">2015.5.10</td>
 						<td class="t_read">100</td>
 					</tr>
@@ -193,8 +279,8 @@ ul, li {
 				</tbody>
 				<tfoot>
 					<tr>
-						<td colspan="5"><a class="btnWrite" href="#"><span><img
-									src="img/icon4.png" alt=""></span>글쓰기</a></td>
+						<td colspan="5"><a class="btnWrite" href="#"><span><img src="img/icon4.png"
+										alt=""></span>글쓰기</a></td>
 					</tr>
 				</tfoot>
 			</table>
@@ -219,8 +305,8 @@ ul, li {
 						<option value="subject_article">제목+내용</option>
 						<option value="subject">제목만</option>
 						<option value="article">내용만</option>
-					</select> <input type="text" id="searchText" name="searchText"> <input
-						type="submit" id="searchBtn" name="searchBtn" value="검색하기">
+					</select> <input type="text" id="searchText" name="searchText"> <input type="submit" id="searchBtn"
+						name="searchBtn" value="검색하기">
 				</div>
 			</div>
 		</div>
