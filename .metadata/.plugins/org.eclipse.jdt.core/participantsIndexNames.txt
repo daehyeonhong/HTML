@@ -1,11 +1,7 @@
 INDEX VERSION 1.131
-<<<<<<< HEAD
-E:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\160283500.index
-=======
 C:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\774400556.index
 \FrontEnd\src
-C:\htmlworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\160283500.index
->>>>>>> 6e38cd648698939fbb37a19bc96fd91b4fec06d1
-\ch07\src
+C:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3792737944.index
+\exercise\src
 C:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\160283500.index
 \ch07\src

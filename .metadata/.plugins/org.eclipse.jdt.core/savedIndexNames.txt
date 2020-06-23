@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-INDEX VERSION 1.131+E:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jdt.core
-1124561105.index
-2780253508.index
-3113725113.index
-3658359147.index
-3714311538.index
-724380870.index
-1657330681.index
-862815326.index
-2650221992.index
-872431687.index
-2858735076.index
-36199935.index
-1147843784.index
-=======
 INDEX VERSION 1.131+C:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jdt.core
 1504405680.index
 147581780.index
@@ -32,13 +16,14 @@ INDEX VERSION 1.131+C:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jdt.core
 3658359147.index
 1870082367.index
 544186229.index
-1918225692.index
 3113725113.index
+1918225692.index
 1657330681.index
 3159466952.index
 2734895168.index
 23145281.index
 4206430044.index
+2650221992.index
 4182784557.index
 1124561105.index
 4013810105.index
@@ -58,13 +43,13 @@ INDEX VERSION 1.131+C:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jdt.core
 1088706351.index
 2530313595.index
 3896823962.index
-625963301.index
 442975119.index
+799146871.index
 2849117956.index
 4033910411.index
+54468728.index
 3714311538.index
 1651531681.index
-2894849925.index
 3732051367.index
 1147843784.index
 871286505.index
@@ -73,4 +58,3 @@ INDEX VERSION 1.131+C:\WorkSpace\HTML\.metadata\.plugins\org.eclipse.jdt.core
 3578912340.index
 2895878108.index
 872431687.index
->>>>>>> 6e38cd648698939fbb37a19bc96fd91b4fec06d1
