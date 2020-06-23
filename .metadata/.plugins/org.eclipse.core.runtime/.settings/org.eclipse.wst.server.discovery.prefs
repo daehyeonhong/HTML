@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
 >>>>>>>=6e38cd648698939fbb37a19bc96fd91b4fec06d1
@@ -6,4 +7,11 @@ cache-lastUpdatedDate=Sat Jun 20 2020 12\:38\:28 KST
 =======
 cache-lastUpdatedDate=\ Fri Jun 19 2020 17\:43\:10 KST
 >>>>>>> 36cca54ae36c4026e641a04eb2cd813d01483d34
+=======
+<<<<<<< HEAD
+cache-lastUpdatedDate=Sat Jun 20 2020 24\:12\:42 KST
+=======
+cache-lastUpdatedDate=Fri Jun 19 2020 17\:43\:10 KST
+>>>>>>> 6e38cd648698939fbb37a19bc96fd91b4fec06d1
+>>>>>>> parent of 36cca54... bbs2 작성
 eclipse.preferences.version=1
