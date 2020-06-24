@@ -6,7 +6,7 @@
   <module moduleId="org.eclipse.jst.jee.server:exercise" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ch06" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ch07" serverId="Tomcat v8.5 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:FrontEnd" serverId="Tomcat v8.5 Server at localhost_html"/>
+  <module moduleId="org.eclipse.jst.jee.server:FrontEnd" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ch02" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ch03" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>
