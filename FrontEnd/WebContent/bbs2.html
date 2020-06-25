@@ -1,9 +1,173 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		h1,
+		h2 {
+			color: #fff;
+		}
+
+		a {
+			font-size: 12px;
+			color: #000;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul,
+		li {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		.wrap {
+			width: 960px;
+			margin: 0 auto;
+			background: #eee;
+		}
+
+		.header {
+			background: #888;
+			padding: 30px;
+		}
+
+		.content {
+			padding: 30px;
+		}
+
+		.footer {
+			background: #333;
+			height: 50px;
+			padding: 20px;
+			font-size: 14px;
+			font-weight: bolder;
+			color: #fff;
+			text-align: center;
+		}
+
+		.logo {
+			float: left;
+			margin-right: 20px;
+		}
+
+		.view {
+			width: 92%;
+			border: 1px solid #bbb;
+			min-height: 240px;
+			background: #fff;
+			padding: 4%;
+		}
+
+		.view .title {
+			font-size: 14px;
+			font-weight: bolder;
+		}
+
+		.view .divider {
+			color: #666;
+		}
+
+		.view .bbsLink a {
+			font-size: 11px;
+			color: #666;
+		}
+
+		.view .bbsLink a:hover {
+			text-decoration: none;
+			color: #ff4500;
+		}
+
+		.titleContainer {
+			padding-bottom: 10px;
+			border-bottom: 1px dashed #999;
+		}
+
+		.view .titleRightBox {
+			font-size: 11px;
+			color: #666;
+			float: right;
+		}
+
+		.view .articleContainer p {
+			font-size: 12px;
+			color: #333;
+			line-height: 20px;
+		}
+
+		.view .articleContainer a {
+			font-size: 12px;
+			color: #333;
+		}
+
+		.view .articleContainer a:hover {
+			text-decoration: none;
+			color: #ff4500;
+		}
+
+		.view .articleContainer img {
+			max-width: 100%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		.view .profileContainer {
+			float: left;
+			margin-top: 50px;
+			width: 40%;
+		}
+
+		.view .profileContainer table {
+			border-spacing: 0;
+			width: 100%;
+		}
+
+		.view .profileContainer img {
+			width: 100px;
+		}
+
+		.view .profileContainer .blogLink {
+			vertical-align: top;
+			text-align: right;
+			padding-right: 10px;
+		}
+
+		.view .profileContainer .utilBtn a {
+			font-size: 12px;
+		}
+
+		.view .profileContainer .utilBtn td {
+			border-bottom: 1px solid #aaa;
+			text-align: right;
+			font-size: 12px;
+			padding-bottom: 10px;
+		}
+
+		.view .profileContainer .blogBox td {
+			padding-top: 15px;
+		}
+
+		.view .profileContainer .imgBox {
+			width: 100px;
+		}
+	</style>
 </head>
+
 <body>
 	<div class="wrap">
 		<div class="header">
@@ -17,11 +181,10 @@
 		<div class="content">
 			<div class="view">
 				<div class="titleContainer">
-					<span class="title">폼을 이용한 글쓰기 입력 페이지 구성</span> <span
-						class="divider">|</span> <span class="bbsLink"><a href="#"></a></span>
+					<span class="title">폼을 이용한 글쓰기 입력 페이지 구성</span> <span class="divider">|</span> <span
+						class="bbsLink"><a href="#">자유게시판</a></span>
 					<span class="titleRightBox"> <span class="titleDate">2020.06.23</span>
-						<span class="divider">|</span> <span class="bbsLink"><a
-							href="#">삭제</a></span>
+						<span class="divider">|</span> <span class="bbsLink"><a href="#">삭제</a></span>
 					</span>
 					<div class="clear"></div>
 				</div>
@@ -47,16 +210,15 @@
 						재정·경제상의 위기에 있어서 국가의 안전보장 또는 공공의 안녕질서를 유지하기 위하여 긴급한 조치가 필요하고 국회의
 						집회를 기다릴 여유가 없을 때에 한하여 최소한으로 필요한 재정·경제상의 처분을 하거나 이에 관하여 법률의 효력을 가지는
 						명령을 발할 수 있다.</p>
-					<a href="#">http://www.daum.net</a> <img src="img/bg1.jpg"
-						alt="배경화면1"> <img src="img/bg2.jpg" alt="배경화면2">
+					<a href="#">http://www.daum.net</a> <img src="img/bg1.jpg" alt="배경화면1"> <img src="img/bg2.jpg"
+						alt="배경화면2">
 				</div>
 				<!-- articleContainer -->
 				<div class="profileContainer">
 					<table>
 						<tbody>
 							<tr class="utilBtn">
-								<td colspan="2">글쓴이의 게시글 구독하기<span class="divider">|<a
-										href="#">더보기</a></span></td>
+								<td colspan="2">글쓴이의 게시글 구독하기<span class="divider">|<a href="#">더보기</a></span></td>
 							</tr>
 							<tr class="blogBox">
 								<td class="blogLink"><a href="#">Writer's Blog</a></td>
@@ -75,11 +237,10 @@
 									<tr>
 										<td class="cmt_icon"><img src="img/icon1.png" alt="아이콘">
 										</td>
-										<td><a href="" class="cmt_author">홍길동</a><span
-											class="cmt_date">2020.06.23 10:30</span><a class="cmt_reply"
-											href="">답글</a></td>
-										<td class="cmt_util"><a href="">신고</a><span
-											class="divider">|</span> <a href="">삭제</a></td>
+										<td><a href="" class="cmt_author">홍길동</a><span class="cmt_date">2020.06.23
+												10:30</span><a class="cmt_reply" href="">답글</a></td>
+										<td class="cmt_util"><a href="">신고</a><span class="divider">|</span> <a
+												href="">삭제</a></td>
 									</tr>
 									<tr>
 										<td></td>
@@ -103,11 +264,10 @@
 									<tr>
 										<td class="cmt_icon"><img src="img/icon1.png" alt="아이콘">
 										</td>
-										<td><a href="" class="cmt_author">홍길동</a><span
-											class="cmt_date">2020.06.23 10:30</span><a class="cmt_reply"
-											href="">답글</a></td>
-										<td class="cmt_util"><a href="">신고</a><span
-											class="divider">|</span> <a href="">삭제</a></td>
+										<td><a href="" class="cmt_author">홍길동</a><span class="cmt_date">2020.06.23
+												10:30</span><a class="cmt_reply" href="">답글</a></td>
+										<td class="cmt_util"><a href="">신고</a><span class="divider">|</span> <a
+												href="">삭제</a></td>
 									</tr>
 									<tr>
 										<td></td>
@@ -131,11 +291,10 @@
 									<tr>
 										<td class="cmt_icon"><img src="img/icon1.png" alt="아이콘">
 										</td>
-										<td><a href="" class="cmt_author">홍길동</a><span
-											class="cmt_date">2020.06.23 10:30</span><a class="cmt_reply"
-											href="">답글</a></td>
-										<td class="cmt_util"><a href="">신고</a><span
-											class="divider">|</span> <a href="">삭제</a></td>
+										<td><a href="" class="cmt_author">홍길동</a><span class="cmt_date">2020.06.23
+												10:30</span><a class="cmt_reply" href="">답글</a></td>
+										<td class="cmt_util"><a href="">신고</a><span class="divider">|</span> <a
+												href="">삭제</a></td>
 									</tr>
 									<tr>
 										<td></td>
@@ -159,11 +318,10 @@
 									<tr>
 										<td class="cmt_icon"><img src="img/icon1.png" alt="아이콘">
 										</td>
-										<td><a href="" class="cmt_author">홍길동</a><span
-											class="cmt_date">2020.06.23 10:30</span><a class="cmt_reply"
-											href="">답글</a></td>
-										<td class="cmt_util"><a href="">신고</a><span
-											class="divider">|</span> <a href="">삭제</a></td>
+										<td><a href="" class="cmt_author">홍길동</a><span class="cmt_date">2020.06.23
+												10:30</span><a class="cmt_reply" href="">답글</a></td>
+										<td class="cmt_util"><a href="">신고</a><span class="divider">|</span> <a
+												href="">삭제</a></td>
 									</tr>
 									<tr>
 										<td></td>
