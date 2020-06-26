@@ -127,7 +127,7 @@
 		}
 
 		.view .profileContainer {
-			float: left;
+			float: right;
 			margin-top: 50px;
 			width: 40%;
 		}
@@ -164,6 +164,88 @@
 
 		.view .profileContainer .imgBox {
 			width: 100px;
+		}
+
+		.view .commentContainer {
+			width: 92%;
+			min-height: 100px;
+			background: #ddd;
+			margin-top: 50px;
+			padding: 4%;
+		}
+
+		.view .commentContainer table {
+			width: 100%;
+		}
+
+		.view .commentContainer .cmt_re_table .cmt_icon {
+			width: 32px;
+		}
+
+		.view .commentContainer .cmt_re_table table {
+			width: 96%;
+			float: right;
+		}
+
+		.view .commentContainer .cmt_author {
+			font-size: 12px;
+			font-weight: bold;
+			margin-right: 10px;
+		}
+
+		.view .commentContainer .cmt_date {
+			font-size: 12px;
+			color: #666;
+		}
+
+		.view .commentContainer .cmt_reply {
+			font-size: 12px;
+			font-weight: bold;
+			margin-left: 10px;
+			padding-left: 15px;
+			background: url("img/cmtreply.png") no-repeat;
+		}
+
+		.view .commentContainer .cmt_icon {
+			width: 20px;
+		}
+
+		.view .commentContainer .cmt_util {
+			text-align: right;
+		}
+
+		.view .commentContainer p {
+			font-size: 12px;
+			color: #666;
+		}
+
+		.view .commentContainer ul li {
+			border-bottom: 1px solid #ccc;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+
+		.view .commentContainer .cmtWriteContainer {
+			padding-top: 30px;
+		}
+
+		.view .commentContainer .cmtWriteContainer textarea {
+			width: 75%;
+			height: 50px;
+			font-size: 12px;
+			padding: 10px;
+		}
+
+		.view .commentContainer .cmtWriteContainer .cmtWriteBtn {
+			width: 16%;
+			height: 16px;
+			display: block;
+			background: #eee;
+			border: 1px solid #ddd;
+			padding: 28px 20px;
+			text-align: center;
+			float: right;
 		}
 	</style>
 </head>
@@ -311,6 +393,7 @@
 									</tr>
 								</tbody>
 							</table>
+							<div class="clear"></div>
 						</li>
 						<li class="cmt_re_table">
 							<table>

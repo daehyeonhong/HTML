@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="@charset &quot;UTF-8&quot;;"/>
+		<item key="selection" value="border-bottom"/>
 		<list key="findhistory">
+			<item value="border-bottom"/>
 			<item value="@charset &quot;UTF-8&quot;;"/>
 		</list>
 		<list key="replacehistory">
