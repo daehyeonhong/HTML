@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 글쓰기</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="logo"><img src="img/logo.png" alt="사이트로고"></div>
+            <h1>CSS활용 강의</h1>
+            <h2>게시판 글쓰기</h2>
+        </div><!-- header끝. -->
+        <div class="content">
+            <h3>게시판 글쓰기</h3>
+            <div class="write">
+                <div class="titleContainer">
+                    <table>
+                        <tr>
+                            <td class="tit">카테고리</td>
+                            <td><select class="titCateSelect">
+                                    <option selected disabled>선택하세요</option>
+                                    <option value="free">자유게시판</option>
+                                    <option value="notice">공지사항</option>
+                                    <option value="QnA">Q&A</option>
+                                    <option value="FAQ">FAQ</option>
+                                </select></td>
+                            <select class="titCateTag">
+                                <option value="tFree">잡담</option>
+                                <option value="tTip">정보</option>
+                                <option value="tQnA">QnA</option>
+                            </select>
+                            <a class="btnTagPlus" href="#">말머리 추가하기</a>
+                            <input type="checkbox" name="chkNotice" id="chkNotice">
+                            <label for="chkNotice">카페 메인에 공지</label>
+                            <input type="checkbox" name="chkNotice2" id="chkNotice2">
+                            <label for="chkNotice2">메인에 공지</label>
+                        </tr>
+                        <tr>
+                            <td class="tit">
+                                제목
+                            </td>
+                            <td><input type="text" name="titleInput" id="titleInput" onfocus="value=''"
+                                    value="제목을 입력하세요"><a class="btnSaved" href=""><span>임시저장된 글</span><span
+                                        class="btnSavedNum">(7)</span></a></td>
+                        </tr>
+                        <tr>
+                            <td class="tit">파일첨부</td>
+                            <td>
+                                <a class="btnFile" href=""><img src="img/sym1.png" alt="">사진 첨부</a>
+                                <span class="divider">|</span>
+                                <a class="btnFile" href=""><img src="img/sym2.png" alt="">동영상 첨부</a>
+                                <span class="divider">|</span>
+                                <a class="btnFile" href=""><img src="img/sym3.png" alt="">지도 첨부</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="tit">
+                                정보 첨부
+                            </td>
+                            <span class="divider">|</span>
+                            <td><a href="btnInfo" href="">책 정보</a><span class="divider">|</span></td>
+                            <td><a href="btnInfo" href="">위치 정보</a><span class="divider">|</span></td>
+                            <td><a href="btnInfo" href="">음악 정보</a><span class="divider">|</span></td>
+                            <td><a href="btnInfo" href="">상품 정보</a></td>
+                        </tr>
+                    </table>
+                </div><!-- titleContainer끝. -->
+                <div class="writeContainer">
+                    <textarea name="" id="" cols="50" rows="10" class="writeArea"></textarea>
+                </div>
+                <ul>
+                    <li>
+
+                        <div class="utilContainer">
+                            태그달기
+                        </div><!-- utilContainer끝. -->
+                        <div class="utilBox"><input type="text" name="tagInput" id="tagInput" onfocus="value=''"
+                                value="태그를 입력하세요. 태그와 태그는 쉼표로 구분합니다."><select>
+                                <option selected disabled>나의 태그보기</option>
+                                <option value="0">HTML</option>
+                                <option value="1">CSS</option>
+                                <option value="2">Javascript</option>
+                                <option value="3">잡담</option>
+                                <option value="4">질문</option>
+                            </select></div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <div class="btnContainer">
+                    <a href="#" class="btn btnSave">저장하기
+                        <a href="" class="btn btnCancel">취소하기</a>
+                    </a>
+                </div>
+            </div><!-- write끝. -->
+        </div><!-- content끌. -->
+        <div class="footer"><span>2020.CSS활용강좌 All rights reserved.</span></div><!-- footer끝. -->
+    </div><!-- wrap끝. -->
+</body>
+
+</html>
